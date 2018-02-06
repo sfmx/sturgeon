@@ -1,0 +1,28 @@
+{
+  "name": "sturgeon",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://guthub.com/sfmx/sturgeon"
+  },
+  "author": {
+    "name": "Jason Smith",
+    "email": "jason.smith@computerscene.com.au"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://guthub.com/sfmx/sturgeon/issues"
+  },
+  "main": "sturgeon.umd.js",
+  "module": "sturgeon.js",
+  "jsnext:main": "sturgeon.js",
+  "typings": "sturgeon.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
